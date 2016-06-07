@@ -6,6 +6,7 @@
         <div class="row">
             <div class="col-md-offset-2 col-md-8">
                 <h1>Student List</h1>
+                <a href="StudentDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus"></i>Add Student</a>
                 <asp:GridView ID="StudentsGridView" runat="server" CssClass="table table-bordered table-striped table-hover" AutoGenerateColumns="false">
                     <Columns>
                         <asp:BoundField Datafield="StudentID" HeaderText="Student ID" Visible="true" />

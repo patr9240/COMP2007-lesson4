@@ -22,6 +22,33 @@ namespace COMP2007_lesson4 {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
         
         /// <summary>
+        /// login control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl login;
+        
+        /// <summary>
+        /// register control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl register;
+        
+        /// <summary>
+        /// menu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl menu;
+        
+        /// <summary>
         /// students control.
         /// </summary>
         /// <remarks>
@@ -47,6 +74,15 @@ namespace COMP2007_lesson4 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl departments;
+        
+        /// <summary>
+        /// logout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl logout;
         
         /// <summary>
         /// contact control.

@@ -47,6 +47,15 @@ namespace COMP2007_lesson4
                 case "Contact":
                     contact.Attributes.Add("class", "active");
                     break;
+                case "MainMenu":
+                    menu.Attributes.Add("class", "active");
+                    break;
+                case "Login":
+                    login.Attributes.Add("class", "active");
+                    break;
+                case "Register":
+                    register.Attributes.Add("class", "active");
+                    break;
             }
         }
     }

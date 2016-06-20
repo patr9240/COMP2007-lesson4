@@ -81,14 +81,14 @@ namespace COMP2007_lesson4
                 db.SaveChanges();
 
                 // Redirect back to the updated departments page
-                Response.Redirect("~/Departments.aspx");
+                Response.Redirect("~/Contoso/Departments.aspx");
             }
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)
         {
             // Redirect back to Students page
-            Response.Redirect("~/Departments.aspx");
+            Response.Redirect("~/Contoso/Departments.aspx");
         }
     }
 }

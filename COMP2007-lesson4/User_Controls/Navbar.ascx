@@ -14,11 +14,18 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li id="home" runat="server"><a class="navbar-brand" href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                <li id="students" runat="server"><a class="navbar-brand" href="Students.aspx"><i class="fa fa-leanpub fa-lg"></i> Students</a></li>
-                <li id="courses" runat="server"><a class="navbar-brand" href="Courses.aspx"><i class="fa fa-book fa-lg"></i> Courses</a></li>
-                <li id="departments" runat="server"><a class="navbar-brand" href="Departments.aspx"><i class="fa fa-puzzle-piece fa-lg"></i> Departments</a></li>
-                <li id="contact" runat="server"><a class="navbar-brand" href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
+                <li id="home" runat="server"><a class="navbar-brand" href="/Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
+
+                <li id="login" runat="server"><a class="navbar-brand" href="/Login.aspx"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
+                <li id="register" runat="server"><a class="navbar-brand" href="/Register.aspx"><i class="fa fa-user-plus fa-lg"></i> Register</a></li>
+
+                <li id="menu" runat="server"><a class="navbar-brand" href="/Contoso/MainMenu.aspx"><i class="fa fa-map-signs fa-lg"></i> Main Menu</a></li>
+                <li id="students" runat="server"><a class="navbar-brand" href="/Contoso/Students.aspx"><i class="fa fa-leanpub fa-lg"></i> Students</a></li>
+                <li id="courses" runat="server"><a class="navbar-brand" href="/Contoso/Courses.aspx"><i class="fa fa-book fa-lg"></i> Courses</a></li>
+                <li id="departments" runat="server"><a class="navbar-brand" href="/Contoso/Departments.aspx"><i class="fa fa-puzzle-piece fa-lg"></i> Departments</a></li>
+                <li id="logout" runat="server"><a class="navbar-brand" href="/Logout.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+
+                <li id="contact" runat="server"><a class="navbar-brand" href="/Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

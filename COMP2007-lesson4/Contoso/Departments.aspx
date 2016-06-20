@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-offset-2 col-md-8">
                 <h1>Departments List</h1>
-                <a href="DepartmentDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus"></i>Add Department</a>
+                <a href="/Contoso/DepartmentDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus"></i>Add Department</a>
 
                 <div>
                     <label for="PageSizeDropDownList"></label>
@@ -28,7 +28,7 @@
                         <asp:BoundField DataField="Budget" HeaderText="Budget" Visible="true" SortExpression="Budget" DataFormatString="{0:c}"/>
                         
                         <asp:HyperLinkField HeaderText="Edit" Text="<i calss='fa fa-encil-square-o fa-lg'></i> Edit"
-                            NavigateUrl="DepartmentDetails.aspx"  ControlStyle-CssClass="btn btn-primary btn-sm" DataNavigateUrlFields="DepartmentID"
+                            NavigateUrl="/Contoso/DepartmentDetails.aspx"  ControlStyle-CssClass="btn btn-primary btn-sm" DataNavigateUrlFields="DepartmentID"
                             runat="server" DataNavigateUrlFormatString="DepartmentDetails.aspx?DepartmentID={0}" />
                         <asp:CommandField HeaderText="Delete" DeleteText="<i class='fa fa-trash-o fa-lg'></i> Delete" ShowDeleteButton="true" ButtonType="Link"
                             ControlStyle-CssClass="btn btn-danger btn-sm" />

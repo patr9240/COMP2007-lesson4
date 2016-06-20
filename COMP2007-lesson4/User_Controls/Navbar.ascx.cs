@@ -5,6 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin.Security;
 /**
  * @author: Patrick Ross
  * @date: June 6th, 2016
@@ -17,7 +20,21 @@ namespace COMP2007_lesson4
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SetActivePage();
+            if (!IsPostBack)
+            {
+                //check if a user is logged in
+                if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+                    ContosoPlaceHolder.Visible = true;
+                    PublicPlaceHolder.Visible = false;
+                }
+                else
+                {
+                    ContosoPlaceHolder.Visible = false;
+                    PublicPlaceHolder.Visible = true;
+                }
+                SetActivePage();
+            }
         }
 
         /**
